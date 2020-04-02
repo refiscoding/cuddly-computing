@@ -1,6 +1,6 @@
 # Cuddly Computing Demo 
 
-Cuddly Computing Demo is a free and open-sourced Bootstrap themed Angular 9 starter project.
+Cuddly Computing Demo is a free and open-sourced Angular 9 starter project.
 
 Cuddly Computing Demo comes with a base implementation of navigation and layouts.
 
