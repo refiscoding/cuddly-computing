@@ -8,7 +8,7 @@ Cuddly Computing Demo comes with a base implementation of navigation and layouts
 
 ```bash
 git clone git@github.com:refiloematlapeng/admin-vimo.git
-cd sb-admin-angular
+cd admin-vimo
 npm install
 npm start
 ```
