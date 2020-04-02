@@ -1,24 +1,13 @@
-# SB Admin Angular
+# Cuddly Computing Demo 
 
-SB Admin Angular is a free and open-sourced Bootstrap themed Angular 9 starter project.
+Cuddly Computing Demo is a free and open-sourced Bootstrap themed Angular 9 starter project.
 
-It shares the same project structure and subset of tooling from our professional offering,
-[SB Admin Pro Angular](https://themes.startbootstrap.com/sb-admin-pro-angular/),
-so much of the [SB Admin Pro Angular Documentation](https://docs.startbootstrap.com/sb-admin-pro-angular/quickstart) is applicable.
-
-In particular the documentation for [Structure](https://docs.startbootstrap.com/sb-admin-pro-angular/structure-root-level),
-and the documentation for [SBPro Schematics](https://docs.startbootstrap.com/sb-admin-pro-angular/development-general#sb-pro-schematics)
-
-SB Admin Angular comes with a base implementation of navigation and layouts.
-
-For professionally designed components (including an advanced SideNav), 100% code coverage,
-starter cypress tests and more, please consider our professional offering:
-[SB Admin Pro Angular](https://themes.startbootstrap.com/sb-admin-pro-angular/)
+Cuddly Computing Demo comes with a base implementation of navigation and layouts.
 
 ## Quick Start
 
 ```bash
-git clone git@github.com:startbootstrap/sb-admin-angular.git
+git clone git@github.com:refiloematlapeng/admin-vimo.git
 cd sb-admin-angular
 npm install
 npm start
@@ -50,7 +39,7 @@ npm run e2e
 
 ## Production
 
-SB Admin Angular come with a production ready Dockerfile and build scripts.
+Cuddly Computing Demo come with a production ready Dockerfile and build scripts.
 
 You can get Docker [here](https://www.docker.com/get-started)
 
@@ -92,9 +81,6 @@ If you receive memory issues (most likely on Linux, but could technically happen
 ```
 
 You can adjust 2048 to any number you need.
-
-For more information about why you may need `--max_old_space_size`
-see [this article](https://medium.com/@ashleydavis75/node-js-memory-limitations-30d3fe2664c0).
 
 Keep in mind that this project only uses node to build the angular application.
 There is no production dependency on node.
