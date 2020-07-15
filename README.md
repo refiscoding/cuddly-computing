@@ -3,7 +3,7 @@
 ## Quick Start
 
 ```bash
-git clone git@github.com:refiloematlapeng/admin-vimo.git
+git clone git@github.com:refiloematlapeng/cuddly-c.git
 cd admin-vimo
 npm install
 npm start
