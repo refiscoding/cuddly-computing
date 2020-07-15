@@ -1,8 +1,4 @@
-# Cuddly Computing Demo 
 
-Cuddly Computing Demo is a free and open-sourced Angular 9 starter project.
-
-Cuddly Computing Demo comes with a base implementation of navigation and layouts.
 
 ## Quick Start
 
@@ -39,8 +35,6 @@ npm run e2e
 
 ## Production
 
-Cuddly Computing Demo come with a production ready Dockerfile and build scripts.
-
 You can get Docker [here](https://www.docker.com/get-started)
 
 ```bash
@@ -56,20 +50,6 @@ npm run generate:component -- --path src/modules/test/containers --name Test
 npm run generate:component -- --path src/modules/test/components --name Test
 npm run generate:directive -- --path src/modules/test/directives --name Test
 npm run generate:service -- --path src/modules/test/services --name Test
-```
-
-_Note: Creating a Component and a Container use the same command,
-the difference is just the paths and how they are used._
-
-### MVCC
-
-Containers and Components are both Angular Components, but used in different ways.
-
-Containers should arrange Components.
-
-Obviously this can become subjective, but MVCC is the paradigm that we subscribe to.
-
-## Troubleshooting
 
 ### npm start
 
@@ -80,7 +60,3 @@ If you receive memory issues (most likely on Linux, but could technically happen
 "ng": "node --max_old_space_size=2048 ./node_modules/.bin/ng",
 ```
 
-You can adjust 2048 to any number you need.
-
-Keep in mind that this project only uses node to build the angular application.
-There is no production dependency on node.
